@@ -35,10 +35,10 @@ direction = {"N","N","N","N","N","E","E","E","E","E"} == "Finish"
 ```java
 public class MazeRunner {
   public static String walk(int[][] maze, String[] directions) {
-   //inicio variables para los ejes
+   //Inicio variables para los ejes
     int x = 0;
     int y = 0;
-    //recorro el laberinto y asigno coordenadas
+    //Recorro el laberinto y asigno coordenadas
     for (int i = 0; i < maze.length; i++) {
       for (int j = 0; j < maze.length; j++) {
         if (maze[i][j] == 2) {
