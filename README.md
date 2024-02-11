@@ -1,5 +1,5 @@
 # MazeRunner
-### Kata kyu 6 CodeWars
+### Code Wars 6kyu Kata
 Recorre el laberinto sin tocar los muros. Se le dará una matriz 2D del laberinto y una serie de direcciones.
 Su tarea es seguir las instrucciones dadas. Si llegas al punto final antes de que se hayan realizado todos tus movimientos debes devolver "Finish". Si golpeas alguna pared o sales del borde del laberinto, deberías devolver "Dead".
 Si todavía te encuentras en el laberinto después de usar todos los movimientos, debes devolver "Lost".
