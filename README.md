@@ -1,14 +1,22 @@
 # MazeRunner
-### Code Wars 6kyu Kata
+## Code Wars 6kyu Kata
+### Tarea
 Recorre el laberinto sin tocar los muros. Se le dará una matriz 2D del laberinto y una serie de direcciones.
 Su tarea es seguir las instrucciones dadas. Si llegas al punto final antes de que se hayan realizado todos tus movimientos debes devolver "Finish". Si golpeas alguna pared o sales del borde del laberinto, deberías devolver "Dead".
-Si todavía te encuentras en el laberinto después de usar todos los movimientos, debes devolver "Lost".
-maze = [[1,1,1,1,1,1,1],
+Si todavía te encuentras en el laberinto después de usar todos los movimientos, debes devolver "Lost". Laberinto: 
+
+	[[1,1,1,1,1,1,1],
+
         [1,0,0,0,0,0,3],
+
         [1,0,1,0,1,0,1],
+
         [0,0,1,0,0,0,1],
+ 
         [1,0,1,0,1,0,1],
+
         [1,0,0,0,0,0,1],
+ 
         [1,2,1,0,1,0,1]]
 
       0 = Safe place to walk
@@ -31,7 +39,7 @@ direction = {"N","N","N","N","N","E","E","E","E","E"} == "Finish"
 
 ##### 6. Si te encuentras todavía en el laberinto después de usar todos los movimientos, debes regresar a Lost.
 
-
+### Código
 ```java
 public class MazeRunner {
   public static String walk(int[][] maze, String[] directions) {
